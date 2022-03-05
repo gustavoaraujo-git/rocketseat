@@ -1,0 +1,19 @@
+body{
+    display: grid;
+}
+
+header{
+    background-color: aqua;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+aside{
+    background-color: blue;
+}
+
+footer{
+    background-color: gray;
+}
