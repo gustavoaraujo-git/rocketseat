@@ -67,7 +67,20 @@ body {
   color: rgb(215, 136, 255);
   margin: 0;
   padding: 10px 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.detalhamento {
+  font-size: 1.4em;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(221, 194, 247);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
 
