@@ -7,13 +7,12 @@
     <title>Controle de Tarefas Dev</title>
     <link rel="stylesheet" href="./CSS/teladelogin.css">
   </head>
-  <body>
+  <body class="page">
     <div class="grid">
-      <header>
+      <header class="header-menu">
         <section class="init">
-          <div class="conteudo">
-            <h2>Marketing</h2>
-            <h3>Criativo</h3>
+          <div class="conteudo-titulo">
+            <h2>Marketing <br> Criativo</h2>
           </div>
           <nav class="menu-header">
             <ul class="menu-options">
@@ -25,7 +24,8 @@
           </nav>
         </section>
       </header>
-      <main>
+      <main class="conteudo-principal">
+        <div class="grid2">
         <h2>Plataforma para controle de tarefas Dev</h2>
         <p>
           Plataforma com opções de inclusão de atividade com prazo de atividade
@@ -33,12 +33,14 @@
           ou semanalmente de acordo com a sua programação, com objetivo de
           melhorar organização dos devs
         </p>
+        <form>
+          <input type="text" placeholder="Nome" />
+          <input type="email" placeholder="Email" />
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
       </main>
-      <form>
-        <input type="text" placeholder="Nome" />
-        <input type="email" placeholder="Email" />
-        <input type="submit" value="Enviar" />
-      </form>
+
     </div>
   </body>
 </html>
