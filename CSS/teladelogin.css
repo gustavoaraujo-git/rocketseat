@@ -44,9 +44,13 @@ body {
 
 }
 
+.menu-options{
+  padding: 0 80px;
+}
+
 .menu-options > a{
     text-decoration: none;
     color: aliceblue;
-    padding: 0 40px;
+    padding: 0 50px;
 
 }
