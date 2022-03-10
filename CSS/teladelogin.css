@@ -25,32 +25,49 @@ body {
 
 .conteudo-titulo {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: aliceblue;
 }
 
-.menu-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.menu-header > ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-
+.menu-header > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
-.menu-options{
+.menu-options {
   padding: 0 80px;
+  font-size: 1.2em;
 }
 
-.menu-options > a{
-    text-decoration: none;
-    color: aliceblue;
-    padding: 0 50px;
-
+.menu-options > a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0 50px;
 }
+
+.informativo {
+  font-size: 2.7em;
+  color: rgb(243, 108, 243);
+  margin: 0;
+  padding-top: 70px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.informativo2 {
+  font-size: 3.4em;
+  color: rgb(215, 136, 255);
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
