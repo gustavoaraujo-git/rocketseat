@@ -53,6 +53,14 @@ body {
   padding: 0 50px;
 }
 
+a:hover{
+  transition: 0.4s ease-in-out;
+  color: #000;
+  border: solid 0.3px rgb(215, 136, 255);
+  border-radius: solid 10px rgb(215, 136, 255);
+  background: rgb(215, 136, 255);
+}
+
 .informativo {
   font-size: 2.7em;
   color: rgb(243, 108, 243);
@@ -84,3 +92,17 @@ body {
   width: 30%;
 }
 
+.form-name{
+  display: flex;
+  margin: 10px 0;
+}
+
+.form-email{
+  display: flex;
+  margin: 10px 0;
+}
+
+.form-envio{
+  display: flex;
+  margin: 10px 0;
+}
