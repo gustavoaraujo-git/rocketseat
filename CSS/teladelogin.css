@@ -95,6 +95,10 @@ a:hover{
 .form-name{
   display: flex;
   margin: 10px 0;
+  background-color: rgb(128, 0, 248);
+  height: 40px;
+  border-radius: 80px;
+  color: #000;
 }
 
 .form-email{
