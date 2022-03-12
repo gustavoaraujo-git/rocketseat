@@ -88,12 +88,15 @@ a:hover{
 .formulario {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   width: 30%;
 }
 
 .form-name{
   display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.2em;
   margin: 10px 0;
   background-color: rgb(128, 0, 248);
   height: 40px;
@@ -101,12 +104,29 @@ a:hover{
   color: #000;
 }
 
-.form-email{
+.form-password{
   display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.2em;
   margin: 10px 0;
+  background-color: rgb(128, 0, 248);
+  height: 40px;
+  border-radius: 80px;
+  color: #000;
 }
 
 .form-envio{
   display: flex;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.2em;
   margin: 10px 0;
+  background-color: rgb(128, 0, 248);
+  height: 40px;
+  border-radius: 80px;
+  color: #000;
+  align-items: center;
 }
